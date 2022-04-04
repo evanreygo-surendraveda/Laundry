@@ -1,0 +1,62 @@
+/* DEKSTOP */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    
+    .navbar-brand {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32px;
+    }
+    
+    .tombol{
+        border-radius: 40px;
+    }
+    
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    }
+
+    .navbar-brand{
+        font-family: 'Lobster', cursive;
+    }
+
+    .tron{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    }
+
+    .p{
+        font-family: 'Overpass', sans-serif;
+    }
+    
+    .hero{
+        /* background-image: url(laundry.jpg); */
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background.jpg);
+        background-size: cover;
+        /* background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)),url(laundry.jpg); */
+    
+        /* background-color: bisque; */
+        background-position: top center;
+        position: relative;
+        /* box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.5); */
+    }
+    
+    .hero1{
+        /* background-image: url(img/ilustrasi-mesin-cuci-laundy.jpg); */
+        background-size: cover;
+        background-color: rgb(82, 12, 12);
+        background-position: top center;
+        position: relative;
+    }
+}
